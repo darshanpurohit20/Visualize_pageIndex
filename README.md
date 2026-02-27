@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# PageIndex — Document Structure Visualizer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Implemented and visualized a novel **Page Indexing** framework (a next-generation RAG paradigm) that replaces flat vector retrieval with **hierarchical structural indexing** for improved document reasoning and contextual navigation.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+PageIndex parses PDF documents and generates a hierarchical JSON structure that captures the semantic organization of the document — sections, subsections, summaries, and page ranges. This visualizer renders that structure as an interactive, color-coded tree using **React** and **ReactFlow**, making it easy to explore and reason about document architecture at a glance.
 
-### `npm start`
+### Key Highlights
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Hierarchical Structural Indexing** — moves beyond flat vector retrieval by preserving the document's native tree structure (sections → subsections → leaf content).
+- **LLM-powered Summaries** — each node carries an AI-generated summary for rapid comprehension.
+- **Interactive Tree Visualization** — expand/collapse subtrees, search by title, and zoom/pan through arbitrarily deep structures.
+- **Depth-aware Color Coding** — root (blue/purple), level 1 (teal/cyan), level 2 (orange/amber), level 3 (pink/magenta), leaf nodes (green).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+| Layer | Technology |
+|-------|------------|
+| Frontend | React 19, ReactFlow 11, Dagre |
+| Styling | Custom CSS, dark theme, glassmorphism |
+| Data | PageIndex-generated JSON from PDF parsing |
+| Layout | Dagre automatic graph layout (top → bottom) |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Project Structure
 
-### `npm run build`
+```
+src/
+├── components/
+│   ├── CustomNode.js          # Rich gradient node with metadata badges
+│   ├── DocumentVisualizer.js   # Main ReactFlow canvas + controls
+│   └── SearchBar.js            # Floating search with highlight
+├── utils/
+│   ├── colorSystem.js          # Depth-based gradient color palette
+│   ├── graphBuilder.js         # JSON → ReactFlow nodes/edges converter
+│   └── layoutEngine.js         # Dagre layout wrapper
+├── styles/
+│   └── visualizer.css          # Production-grade dark theme styles
+├── App.js                      # Entry point
+└── darshanpurohit_resume.json  # Sample PageIndex output
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+# Install dependencies
+npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Start development server
+npm start
 
-### `npm run eject`
+# Production build
+npm run build
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Open [http://localhost:3000](http://localhost:3000) to view the visualizer.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## How It Works
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **PDF Parsing** — PageIndex parses a PDF and extracts its hierarchical structure.
+2. **JSON Generation** — The parsed structure is output as a nested JSON with section titles, page ranges, node IDs, and LLM-generated summaries.
+3. **Graph Building** — `graphBuilder.js` recursively walks the JSON tree and creates ReactFlow nodes and edges with depth-aware color assignments.
+4. **Automatic Layout** — `layoutEngine.js` uses Dagre to compute a clean top-to-bottom tree layout with no overlapping.
+5. **Interactive Rendering** — `DocumentVisualizer.js` renders the tree with expand/collapse, search highlighting, minimap, and smooth zoom/pan.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Features
 
-## Learn More
+- Collapsible subtrees (expand/collapse children)
+- Search nodes by title with visual highlighting
+- Full summary display on every node
+- Animated edges with smooth step routing
+- Responsive dark-themed UI
+- MiniMap for large document navigation
+- Color-coded legend
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is part of a Final Year Project on hierarchical document intelligence and semantic indexing.

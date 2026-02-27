@@ -1,6 +1,6 @@
 /**
  * CustomNode - A rich, colorful node component for the document structure tree.
- * Features: gradient backgrounds, collapsible summaries, hover glow, metadata badges.
+ * Features: gradient backgrounds, full summary display, hover glow, metadata badges.
  */
 import React, { useState, memo, useCallback } from 'react';
 import { Handle, Position } from 'reactflow';
@@ -106,21 +106,12 @@ const CustomNode = memo(({ data, selected }) => {
         </div>
       )}
 
-      {/* Summary section */}
+      {/* Summary section - always fully visible */}
       {summary && (
         <div className="node-summary-section">
-          <button
-            className="summary-toggle"
-            onClick={toggleSummary}
-            style={{ color: colors.meta }}
-          >
-            {summaryExpanded ? '▾ Hide Summary' : '▸ Show Summary'}
-          </button>
-          {summaryExpanded && (
-            <div className="node-summary" style={{ color: colors.meta }}>
-              <p>{summary}</p>
-            </div>
-          )}
+          <div className="node-summary" style={{ color: colors.meta }}>
+            <p>{summary}</p>
+          </div>
         </div>
       )}
 

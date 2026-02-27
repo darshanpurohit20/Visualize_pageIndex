@@ -270,8 +270,6 @@
 }
 
 .node-summary {
-  max-height: 120px;
-  overflow-y: auto;
   margin-top: 6px;
   padding-right: 4px;
 }
@@ -284,24 +282,7 @@
   word-break: break-word;
 }
 
-/* Scrollbar styling for summary */
-.node-summary::-webkit-scrollbar {
-  width: 4px;
-}
 
-.node-summary::-webkit-scrollbar-track {
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 4px;
-}
-
-.node-summary::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 4px;
-}
-
-.node-summary::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.35);
-}
 
 /* ===== Handles ===== */
 .node-handle {
