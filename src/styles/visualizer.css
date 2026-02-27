@@ -293,6 +293,29 @@
 }
 
 /* ===== ReactFlow Overrides ===== */
+.react-flow__node {
+  overflow: visible !important;
+  height: auto !important;
+  max-height: none !important;
+}
+
+.react-flow__node-customNode {
+  overflow: visible !important;
+  height: auto !important;
+  max-height: none !important;
+}
+
+.react-flow__node-customNode > div {
+  overflow: visible !important;
+  height: auto !important;
+}
+
+.react-flow__node-default,
+.react-flow__node-input,
+.react-flow__node-output {
+  overflow: visible !important;
+}
+
 .react-flow__edge-path {
   stroke-width: 2;
 }

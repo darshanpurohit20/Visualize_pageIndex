@@ -43,6 +43,8 @@ const CustomNode = memo(({ data, selected }) => {
         boxShadow: isHighlighted
           ? `0 0 20px rgba(251, 191, 36, 0.6), 0 0 40px rgba(251, 191, 36, 0.3)`
           : `0 4px 20px rgba(0, 0, 0, 0.3)`,
+        height: 'auto',
+        overflow: 'visible',
       }}
     >
       {/* Target handle (incoming edge) - not shown on root */}
@@ -106,12 +108,21 @@ const CustomNode = memo(({ data, selected }) => {
         </div>
       )}
 
-      {/* Summary section - always fully visible */}
+      {/* Summary section - toggle button, no scroll when expanded */}
       {summary && (
         <div className="node-summary-section">
-          <div className="node-summary" style={{ color: colors.meta }}>
-            <p>{summary}</p>
-          </div>
+          <button
+            className="summary-toggle"
+            onClick={toggleSummary}
+            style={{ color: colors.meta }}
+          >
+            {summaryExpanded ? '▾ Hide Summary' : '▸ Show Summary'}
+          </button>
+          {summaryExpanded && (
+            <div className="node-summary" style={{ color: colors.meta }}>
+              <p>{summary}</p>
+            </div>
+          )}
         </div>
       )}
 

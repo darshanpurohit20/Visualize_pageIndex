@@ -64,6 +64,8 @@ export function applyDagreLayout(nodes, edges, direction = 'TB') {
       style: {
         ...node.style,
         width: NODE_WIDTH,
+        height: 'auto',
+        overflow: 'visible',
       },
     };
   });
