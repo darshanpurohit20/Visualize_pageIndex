@@ -1,93 +1,93 @@
 {
-  "doc_name": "harsh_redasani_resume.pdf",
+  "doc_name": "harshredasani.pdf",
   "structure": [
     {
       "title": "Career Objective",
       "start_index": 1,
       "end_index": 1,
       "node_id": "0000",
-      "summary": "The partial document is a resume of Harsh Redasani, an aspiring software developer. It highlights his career objective, educational background, technical skills, projects, achievements, co-curricular activities, and soft skills. Key points include:\n\n1. **Career Objective**: Focused on contributing to software design, development, and optimization while exploring new technologies.\n2. **Education**: Pursuing a B.Tech in Information Technology (2023-2027) and completed higher secondary education in science (2021-2023).\n3. **Technical Skills**: Proficient in programming languages (Java, Python, C/C++, SQL, JavaScript, HTML/CSS), data analysis tools (Pandas, NumPy, Matplotlib, MS Excel), web development (HTML, CSS, JS, ReactJS), and databases (PostgreSQL, MySQL). Core areas include DSA, OOPs, debugging, and API integration.\n4. **Projects**: Includes a sales tracker system, a speech correction app using AI, and an Amazon clone website.\n5. **Achievements**: Solved 100+ LeetCode problems, completed a DSA course, and participated in AI/ML workshops.\n6. **Co-Curricular Activities**: Engaged in online courses and workshops on DSA, web development, and AI/ML.\n7. **Soft Skills**: Highlights adaptability, problem-solving, analytical thinking, collaboration, and communication."
+      "summary": "The partial document is a professional resume of Harsh Redasani highlighting his career objective to become a Software Developer and contribute to software design, development, and optimization. It includes his educational background, technical skills, projects, achievements, co-curricular activities, and soft skills. The resume emphasizes strong problem-solving abilities, interest in new technologies, and a solid foundation in computer science."
     },
     {
       "title": "Education",
       "start_index": 1,
       "end_index": 1,
+      "node_id": "0001",
+      "summary": "This section outlines Harsh Redasani’s academic background. He is pursuing B.Tech in Information Technology (2023–2027) from Dwarkadas Jivanlal Sanghvi College of Engineering, Mumbai. He completed his Higher Secondary Education (Science) from Vidya Vikas Jr College, Malkapur (2021–2023). The education section reflects a strong foundation in technical and analytical subjects.",
       "nodes": [
         {
-          "title": "Dwarkadas Jivanlal Sanghvi College of Engineering, Mumbai 2023 \u2013 2027",
+          "title": "Dwarkadas Jivanlal Sanghvi College of Engineering, Mumbai",
           "start_index": 1,
           "end_index": 1,
           "node_id": "0002",
-          "summary": "The partial document is a resume of Harsh Redasani, an aspiring software developer. It highlights his career objective, educational background, technical skills, projects, achievements, co-curricular activities, and soft skills. Key points include:\n\n1. **Career Objective**: Focused on contributing to software design, development, and optimization while exploring new technologies.\n2. **Education**: Pursuing a B.Tech in Information Technology (2023-2027) and completed higher secondary education in science (2021-2023).\n3. **Technical Skills**: Proficient in programming languages (Java, Python, C/C++, SQL, JavaScript, HTML/CSS), data analysis tools (Pandas, NumPy, Matplotlib, MS Excel), web development (HTML, CSS, JS, ReactJS), and databases (PostgreSQL, MySQL). Skilled in DSA, OOPs, debugging, and API integration.\n4. **Projects**: Includes a sales tracker system, a speech correction app using AI, and an Amazon clone website.\n5. **Achievements**: Solved 100+ LeetCode problems, completed a DSA course, and participated in AI/ML workshops.\n6. **Co-Curricular Activities**: Engaged in online courses and workshops on programming, web development, and AI/ML.\n7. **Soft Skills**: Strong in adaptability, problem-solving, analytical thinking, collaboration, and communication."
+          "summary": "Currently pursuing B.Tech in Information Technology (2023–2027), focusing on software development, data structures, algorithms, database systems, and modern computing technologies."
         },
         {
-          "title": "Vidya Vikas Jr College, Malkapur 2021 \u2013 2023",
+          "title": "Vidya Vikas Jr College, Malkapur",
           "start_index": 1,
           "end_index": 1,
           "node_id": "0003",
-          "summary": "The partial document is a resume of Harsh Redasani, an aspiring software developer. It highlights his career objective, educational background, technical skills, projects, achievements, co-curricular activities, and soft skills. Key points include:\n\n1. **Career Objective**: Focused on contributing to software design, development, and optimization while exploring new technologies.\n2. **Education**: Pursuing a B.Tech in Information Technology (2023-2027) and completed higher secondary education in science (2021-2023).\n3. **Technical Skills**: Proficient in programming languages (Java, Python, C/C++, SQL, JavaScript, HTML/CSS), data analysis tools (Pandas, NumPy, Matplotlib, MS Excel), web development (HTML, CSS, JS, ReactJS), and databases (PostgreSQL, MySQL). Skilled in DSA, OOPs, debugging, and API integration.\n4. **Projects**: Includes a sales tracker system, a speech correction app using AI, and an Amazon clone website.\n5. **Achievements**: Solved 100+ LeetCode problems, completed a DSA course, and participated in AI/ML workshops.\n6. **Co-Curricular Activities**: Engaged in online courses and workshops on DSA, web development, and AI/ML.\n7. **Soft Skills**: Strong in adaptability, problem-solving, analytical thinking, collaboration, and communication."
+          "summary": "Completed Higher Secondary Examination (Science) during 2021–2023, building a strong academic base in mathematics and science subjects."
         }
-      ],
-      "node_id": "0001",
-      "summary": "The partial document is a resume of Harsh Redasani, an aspiring software developer. It highlights his career objective of contributing to software development and exploring new technologies. The document outlines his educational background, including a B.Tech in Information Technology (2023-2027) and prior schooling in science. It lists his technical skills, such as proficiency in programming languages (Java, Python, C/C++, SQL, JavaScript, HTML/CSS), data analysis tools (Pandas, NumPy, Matplotlib, MS Excel), web development (HTML, CSS, JavaScript, ReactJS), and databases (PostgreSQL, MySQL). Core areas include DSA, OOPs, debugging, and API integration.\n\nThe document also details projects like a sales tracker, a speech correction app, and an Amazon clone website. Achievements include solving 100+ LeetCode problems, completing a DSA course, and participating in AI/ML workshops. Co-curricular activities include completing online courses in programming and data analysis, solving Striver\u2019s DSA Sheet, and attending workshops on web development and AI/ML. Additionally, it mentions soft skills such as adaptability, problem-solving, analytical thinking, collaboration, and communication."
+      ]
     },
     {
       "title": "Technical Skills",
       "start_index": 1,
       "end_index": 1,
       "node_id": "0004",
-      "summary": "The partial document is a resume of Harsh Redasani, an aspiring software developer. It highlights his career objective, educational background, technical skills, projects, achievements, co-curricular activities, and soft skills. Key points include:\n\n1. **Career Objective**: Focused on contributing to software design, development, and optimization while exploring new technologies.\n2. **Education**: Pursuing a B.Tech in Information Technology (2023-2027) and completed higher secondary education in science (2021-2023).\n3. **Technical Skills**: Proficient in programming languages (Java, Python, C/C++, SQL, JavaScript, HTML/CSS), data analysis tools (Pandas, NumPy, Matplotlib, MS Excel), web development (HTML, CSS, JS, ReactJS), and databases (PostgreSQL, MySQL). Skilled in DSA, OOPs, debugging, and API integration.\n4. **Projects**: Includes a sales tracker system, a speech correction app using AI, and an Amazon clone website.\n5. **Achievements**: Solved 100+ LeetCode problems, completed a DSA course, and participated in AI/ML workshops.\n6. **Co-Curricular Activities**: Engaged in online courses and workshops on programming, web development, and AI/ML.\n7. **Soft Skills**: Strong in adaptability, problem-solving, analytical thinking, collaboration, and communication."
+      "summary": "Harsh possesses technical proficiency in multiple programming languages including Java, Python, C/C++, SQL, JavaScript, and HTML/CSS. He has experience in data analysis using Pandas, NumPy, Matplotlib, and MS Excel (Pivot Tables, Lookups, Aggregation). His web development skills include frontend technologies and basic ReactJS. He is familiar with tools such as Git, GitHub, Tableau, Google Data Studio, and VS Code. He has knowledge of PostgreSQL and MySQL databases and core computer science concepts like DSA, OOPs, database design, debugging, and API integration."
     },
     {
       "title": "Projects",
       "start_index": 1,
       "end_index": 1,
+      "node_id": "0005",
+      "summary": "This section highlights Harsh’s hands-on project experience in software development, data analysis, AI, and web development. His projects demonstrate practical implementation skills, validation mechanisms, dashboard creation, AI-based problem solving, and responsive web design.",
       "nodes": [
         {
-          "title": "BigBaar Daily Sales Tracker(Python, Excel) \u2013 Developed sales tracking and reporting system with validation and aggregation.",
+          "title": "BigBaar Daily Sales Tracker | Python, Excel",
           "start_index": 1,
           "end_index": 1,
           "node_id": "0006",
-          "summary": "Error"
+          "summary": "Developed a sales tracking and reporting system with validation and aggregation features. Implemented data analysis techniques to generate structured reports and insights for daily sales monitoring."
         },
         {
-          "title": "Speech Correction App(Flutter, Python, Firebase) \u2013 Built AI model for speech disorder detection with dashboards.",
+          "title": "Speech Correction App | Flutter, Python, Firebase",
           "start_index": 1,
           "end_index": 1,
           "node_id": "0007",
-          "summary": "Error"
+          "summary": "Built an AI-powered speech disorder detection application integrated with dashboards. Utilized Flutter for frontend, Python for AI model logic, and Firebase for backend data storage and authentication."
         },
         {
-          "title": "Amazon Clone Website(HTML, CSS, JavaScript) \u2013 Designed responsive storefront with categories, cart, and order summary.",
+          "title": "Amazon Clone Website | HTML, CSS, JavaScript",
           "start_index": 1,
           "end_index": 1,
           "node_id": "0008",
-          "summary": "Error"
+          "summary": "Designed and developed a responsive e-commerce storefront featuring product categories, cart functionality, and order summary system using core frontend technologies."
         }
-      ],
-      "node_id": "0005",
-      "summary": "The partial document is a resume of Harsh Redasani, an aspiring software developer. It highlights his career objective, educational background, technical skills, projects, achievements, co-curricular activities, and soft skills. Key points include:\n\n1. **Career Objective**: Focused on contributing to software design, development, and optimization while exploring new technologies.\n2. **Education**: Pursuing a B.Tech in Information Technology (2023-2027) and completed higher secondary education in science (2021-2023).\n3. **Technical Skills**: Proficient in programming languages (Java, Python, C/C++, SQL, JavaScript, HTML/CSS), data analysis tools (Pandas, NumPy, Matplotlib, MS Excel), web development (HTML, CSS, JS, ReactJS), databases (PostgreSQL, MySQL), and tools like Git, GitHub, Tableau, and VS Code.\n4. **Projects**: Includes a sales tracker system, a speech correction app using AI, and an Amazon clone website.\n5. **Achievements**: Solved 100+ LeetCode problems, completed a DSA course, and participated in AI/ML workshops.\n6. **Co-Curricular Activities**: Engaged in DSA problem-solving, completed online courses in programming and data analysis, and attended workshops on web development and AI/ML.\n7. **Soft Skills**: Demonstrates adaptability, problem-solving, analytical thinking, collaboration, and communication."
+      ]
     },
     {
       "title": "Achievements",
       "start_index": 1,
       "end_index": 1,
       "node_id": "0009",
-      "summary": "The partial document is a resume of Harsh Redasani, an aspiring software developer. It highlights his career objective, educational background, technical skills, projects, achievements, co-curricular activities, and soft skills. Key points include:\n\n1. **Career Objective**: Focused on contributing to software design, development, and optimization while exploring new technologies.\n2. **Education**: Pursuing a B.Tech in Information Technology (2023-2027) and completed higher secondary education in science (2021-2023).\n3. **Technical Skills**: Proficient in programming languages (Java, Python, C/C++, SQL, JavaScript, HTML/CSS), data analysis tools (Pandas, NumPy, Matplotlib, MS Excel), web development (HTML, CSS, JS, ReactJS), and databases (PostgreSQL, MySQL). Core areas include DSA, OOPs, debugging, and API integration.\n4. **Projects**: Includes a sales tracker system, a speech correction app using AI, and an Amazon clone website.\n5. **Achievements**: Solved 100+ LeetCode problems, completed a DSA course, and participated in AI/ML workshops.\n6. **Co-Curricular Activities**: Completed online courses in programming, data analysis, and web development, and attended workshops on AI/ML and web development.\n7. **Soft Skills**: Highlights adaptability, problem-solving, analytical thinking, collaboration, and communication."
+      "summary": "Harsh solved 100+ LeetCode problems focused on Data Structures and Algorithms through Striver’s Sheet. He completed a DSA course by Apna College with certification and participated in a Scaler AI/ML Workshop to explore real-world machine learning applications."
     },
     {
       "title": "Co-Curricular Activities",
       "start_index": 1,
       "end_index": 1,
       "node_id": "0010",
-      "summary": "Error"
+      "summary": "Completed Data Structures and Algorithms course by Apna College and actively solving Striver’s DSA Sheet to enhance algorithmic thinking. Completed online courses in JavaScript, Python (Pandas, NumPy, Matplotlib), and Excel through platforms like Apna College and Chai Aur Code. Attended Web Development and AI/ML workshops conducted by Scaler School of Technology."
     },
     {
       "title": "Soft Skills",
       "start_index": 1,
       "end_index": 1,
       "node_id": "0011",
-      "summary": "Error"
+      "summary": "Harsh demonstrates strong adaptability, problem-solving skills, analytical thinking, collaboration abilities, and effective communication skills, enabling him to work efficiently in team-based and dynamic environments."
     }
   ]
 }

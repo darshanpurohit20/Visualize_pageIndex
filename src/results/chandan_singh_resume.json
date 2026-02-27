@@ -1,0 +1,107 @@
+{
+  "doc_name": "chandanssingh_1.pdf",
+  "structure": [
+    {
+      "title": "Career Overview",
+      "start_index": 1,
+      "end_index": 1,
+      "node_id": "0000",
+      "summary": "The document is a professional resume of Chandan S Singh highlighting his strong academic performance, software development expertise, and interest in cybersecurity and backend systems. It showcases his experience in Android malware detection using Explainable AI, full-stack web development projects, and consistent problem-solving practice through coding platforms."
+    },
+    {
+      "title": "Education",
+      "start_index": 1,
+      "end_index": 1,
+      "node_id": "0001",
+      "summary": "This section outlines Chandan’s academic background, demonstrating consistent academic excellence. He is pursuing B.Tech in Information Technology with a CGPA of 9.0. He completed Higher Secondary education with 71% and Secondary School with 94%, reflecting strong foundational performance.",
+      "nodes": [
+        {
+          "title": "Dwarkadas J. Sanghvi College of Engineering",
+          "start_index": 1,
+          "end_index": 1,
+          "node_id": "0002",
+          "summary": "Currently pursuing B.Tech in Information Technology (2023–Present) with an average CGPA of 9.0, focusing on software engineering, cybersecurity, data structures, and backend development."
+        },
+        {
+          "title": "Sathye College",
+          "start_index": 1,
+          "end_index": 1,
+          "node_id": "0003",
+          "summary": "Completed Higher Secondary education with a score of 71%, building foundational knowledge in science and mathematics."
+        },
+        {
+          "title": "Little Angels English High School",
+          "start_index": 1,
+          "end_index": 1,
+          "node_id": "0004",
+          "summary": "Completed Secondary School with a score of 94%, demonstrating strong academic discipline and performance."
+        }
+      ]
+    },
+    {
+      "title": "Projects",
+      "start_index": 1,
+      "end_index": 1,
+      "node_id": "0005",
+      "summary": "This section highlights Chandan’s technical projects in cybersecurity, backend API development, and frontend web applications. His work demonstrates knowledge of machine learning, explainable AI, RESTful API development, and responsive web design.",
+      "nodes": [
+        {
+          "title": "Android Malware Detection using Explainable AI | Python, TensorFlow, CNN-LSTM, LIME, SHAP",
+          "start_index": 1,
+          "end_index": 1,
+          "node_id": "0006",
+          "summary": "Developed a hybrid CNN-LSTM model for Android malware detection integrated with Explainable AI techniques (LIME and SHAP) to identify and explain key features influencing predictions. Evaluated the system on datasets including NATICUSdroid, CICMalDroid 2020, and Drebin."
+        },
+        {
+          "title": "Airbnb Clone – Backend APIs | Node.js, Express.js, REST",
+          "start_index": 1,
+          "end_index": 1,
+          "node_id": "0007",
+          "summary": "Designed and implemented RESTful APIs handling authentication, listings, bookings, and reviews with full CRUD operations, validation, error handling, and secure routing mechanisms."
+        },
+        {
+          "title": "Amazon Clone | HTML, CSS, JavaScript",
+          "start_index": 1,
+          "end_index": 1,
+          "node_id": "0008",
+          "summary": "Built a responsive e-commerce storefront featuring product categories, cart functionality, order summary, and reusable UI components using core frontend technologies."
+        },
+        {
+          "title": "Personal Finance Tracker | HTML, CSS, JavaScript",
+          "start_index": 1,
+          "end_index": 1,
+          "node_id": "0009",
+          "summary": "Developed an expense and budget tracking dashboard with interactive charts and localStorage persistence for data retention and real-time updates."
+        },
+        {
+          "title": "Online Quiz Platform | HTML, CSS, JavaScript",
+          "start_index": 1,
+          "end_index": 1,
+          "node_id": "0010",
+          "summary": "Created a timed MCQ-based quiz platform with instant scoring, progress tracking, and responsive UI design for improved user engagement."
+        }
+      ]
+    },
+    {
+      "title": "Technical Skills",
+      "start_index": 1,
+      "end_index": 1,
+      "node_id": "0011",
+      "summary": "Chandan is proficient in programming languages including C, C++, Java, Python, JavaScript, and SQL. He has backend development experience using Node.js, Express.js, and REST APIs. His frontend expertise includes HTML, CSS, Bootstrap, and TailwindCSS. He is experienced with Python libraries such as NumPy, SciPy, pandas, and matplotlib, and uses tools like Git and GitHub for version control."
+    },
+    {
+      "title": "Courses & Co-Curricular",
+      "start_index": 1,
+      "end_index": 1,
+      "node_id": "0012",
+      "summary": "Completed Data Structures & Algorithms (DSA) course by Apna College and participated in workshops on Web Development and AI/ML, enhancing practical exposure to modern development practices and machine learning concepts."
+    },
+    {
+      "title": "Achievements",
+      "start_index": 1,
+      "end_index": 1,
+      "node_id": "0013",
+      "summary": "Secured a top 10% position in class with a CGPA of 9.0 in B.Tech IT. Solved 100+ problems on coding platforms such as LeetCode, HackerRank, and Codeforces. Actively participated in college-level hackathons and coding contests, contributing to collaborative projects and demonstrating strong analytical and problem-solving skills."
+    }
+  ]
+}

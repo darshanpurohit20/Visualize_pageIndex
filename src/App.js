@@ -5,6 +5,7 @@ import './App.css';
 // Import all JSON files from results
 import darshanpurohitResume from './results/darshanpurohit_resume.json';
 import harshRedasaniResume from './results/harsh_redasani_resume.json';
+import chandanSinghResume from './results/chandan_singh_resume.json';
 import annualReport2023 from './results/2023-annual-report_structure.json';
 import annualReport2023Truncated from './results/2023-annual-report-truncated_structure.json';
 import prmlStructure from './results/PRML_structure.json';
@@ -17,6 +18,7 @@ import regBestInterestProposed from './results/Regulation Best Interest_proposed
 const JSON_FILES = [
   { label: 'Darshan Purohit Resume', data: darshanpurohitResume },
   { label: 'Harsh Redasani Resume', data: harshRedasaniResume },
+   { label: 'Chandan Singh Resume', data: chandanSinghResume },
   { label: '2023 Annual Report', data: annualReport2023 },
   { label: '2023 Annual Report (Truncated)', data: annualReport2023Truncated },
   { label: 'PRML Structure', data: prmlStructure },
