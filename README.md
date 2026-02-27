@@ -5,7 +5,7 @@ Implemented and visualized a novel **Page Indexing** framework (a next-generatio
 ## Overview
 
 PageIndex parses PDF documents and generates a hierarchical JSON structure that captures the semantic organization of the document — sections, subsections, summaries, and page ranges. This visualizer renders that structure as an interactive, color-coded tree using **React** and **ReactFlow**, making it easy to explore and reason about document architecture at a glance.
-
+Reference:https://github.com/VectifyAI/PageIndex
 ### Key Highlights
 
 - **Hierarchical Structural Indexing** — moves beyond flat vector retrieval by preserving the document's native tree structure (sections → subsections → leaf content).
