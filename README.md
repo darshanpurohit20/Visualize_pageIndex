@@ -39,6 +39,8 @@ src/
 ├── App.js                      # Entry point
 └── darshanpurohit_resume.json  # Sample PageIndex output
 ```
+## OUTPUT
+<img width="1470" height="885" alt="image" src="https://github.com/user-attachments/assets/50b9759d-856d-4ec0-aeb7-0bb97da2ec89" />
 
 ## Getting Started
 
@@ -75,4 +77,4 @@ Open [http://localhost:3000](http://localhost:3000) to view the visualizer.
 
 ## License
 
-This project is part of a Final Year Project on hierarchical document intelligence and semantic indexing.
+HAO DARSHAN PUROHIT
