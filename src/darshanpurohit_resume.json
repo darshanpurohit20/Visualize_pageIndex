@@ -1,0 +1,93 @@
+{
+  "doc_name": "darshanpurohit_1.pdf",
+  "structure": [
+    {
+      "title": "Career Objective",
+      "start_index": 1,
+      "end_index": 1,
+      "node_id": "0000",
+      "summary": "The partial document is a professional resume highlighting the following main points:\n\n1. **Personal Information**: Contact details, email, LinkedIn, and GitHub profile.\n2. **Career Objective**: Aspiration to leverage software development and problem-solving skills for impactful projects and continuous learning.\n3. **Education**: Academic background, including B.Tech in Information Technology (CGPA: 9.0), Higher Secondary (84.50%), and Secondary School (87.80%).\n4. **Projects**: Detailed descriptions of key projects:\n   - Multimodal Deepfake Detection System using advanced architectures like Pyramid-ResNet and GNN.\n   - SereneStudy, a Discord bot for study group management and productivity.\n   - ClipShare, a web app for anonymous file and text sharing.\n5. **Co-Curricular Activities**: Completion of online courses in programming and data structures, enhancing problem-solving and debugging skills.\n6. **Technical Skills**: Proficiency in programming languages (Java, Python, C/C++, SQL), databases, web development, data analysis, and version control tools.\n7. **Soft Skills**: Strengths in adaptability, problem-solving, teamwork, time management, and communication."
+    },
+    {
+      "title": "Education",
+      "start_index": 1,
+      "end_index": 1,
+      "nodes": [
+        {
+          "title": "Dwarkadas Jivanlal Sanghvi College of Engineering Mumbai, India",
+          "start_index": 1,
+          "end_index": 1,
+          "node_id": "0002",
+          "summary": "The partial document is a resume of Darshan Purohit, highlighting his career objective, education, projects, co-curricular activities, technical skills, and soft skills. It outlines his academic background, including a B.Tech in Information Technology with a strong CGPA, and notable projects such as a Multimodal Deepfake Detection System, a Discord Study Bot, and an Anonymous File & Text Sharing App. The document also mentions his completion of online courses in programming, problem-solving practice, and proficiency in various technical skills like programming languages (Java, Python, C/C++), databases, web development, data analysis, and version control tools. Additionally, it emphasizes his soft skills, including adaptability, problem-solving, teamwork, time management, and communication."
+        },
+        {
+          "title": "Nirmala Memorial Foundation College of Commerce & Science Mumbai, India",
+          "start_index": 1,
+          "end_index": 1,
+          "node_id": "0003",
+          "summary": "The partial document is a resume of Darshan Purohit, highlighting his career objective, education, projects, co-curricular activities, technical skills, and soft skills. It outlines his academic background, including a B.Tech in Information Technology with a strong CGPA, and details his projects such as a Multimodal Deepfake Detection System, a Discord Study Bot, and an Anonymous File & Text Sharing App. The document also mentions his completion of online courses in programming, problem-solving practice, and his technical expertise in programming languages, databases, web development, data analysis, and version control. Additionally, it emphasizes his soft skills like adaptability, problem-solving, teamwork, time management, and communication."
+        },
+        {
+          "title": "Shanti Nagar High School Thane, India",
+          "start_index": 1,
+          "end_index": 1,
+          "node_id": "0004",
+          "summary": "The partial document is a professional resume of Darshan Purohit, highlighting his career objective, education, projects, co-curricular activities, technical skills, and soft skills. It outlines his academic background, including a B.Tech in Information Technology with a strong CGPA, and notable projects such as a Multimodal Deepfake Detection System, a Discord Study Bot, and an Anonymous File & Text Sharing App. The document also emphasizes his technical expertise in programming languages, databases, web development, and data analysis, along with his problem-solving and collaboration skills. Additionally, it mentions his completion of online courses and coding challenges to enhance his programming and analytical abilities."
+        }
+      ],
+      "node_id": "0001",
+      "summary": "The partial document is a resume of Darshan Purohit, highlighting his career objective, education, projects, co-curricular activities, technical skills, and soft skills. It outlines his academic background, including a B.Tech in Information Technology with a strong CGPA, and details his projects such as a Multimodal Deepfake Detection System, a Discord Study Bot, and an Anonymous File & Text Sharing App. The document also mentions his completion of online courses in programming and data structures, along with his technical expertise in programming languages, databases, web development, data analysis, and version control tools. Additionally, it emphasizes his soft skills like adaptability, problem-solving, teamwork, time management, and communication."
+    },
+    {
+      "title": "Projects",
+      "start_index": 1,
+      "end_index": 1,
+      "nodes": [
+        {
+          "title": "Multimodal Deepfake Detection System |Python, PyTorch, Pyramid-ResNet, GNN",
+          "start_index": 1,
+          "end_index": 1,
+          "node_id": "0006",
+          "summary": "The partial document is a professional resume of Darshan Purohit, highlighting his career objective, education, projects, co-curricular activities, technical skills, and soft skills. It outlines his academic background, including a B.Tech in Information Technology with a strong CGPA, and notable projects such as a Multimodal Deepfake Detection System, a Discord Study Bot, and an Anonymous File & Text Sharing App. The document also emphasizes his technical expertise in programming languages, databases, web development, and data analysis, along with his problem-solving and collaboration skills. Additionally, it mentions his completion of online courses and coding challenges to enhance his programming and analytical abilities."
+        },
+        {
+          "title": "SereneStudy - Discord Study Bot |Python, discord.py, SQLite, REST APIs",
+          "start_index": 1,
+          "end_index": 1,
+          "node_id": "0007",
+          "summary": "The partial document is a resume of Darshan Purohit, highlighting his career objective, education, projects, co-curricular activities, technical skills, and soft skills. It outlines his goal to leverage software development and problem-solving skills for impactful work. His education includes a B.Tech in Information Technology with a strong academic record. The document details his projects, such as a multimodal deepfake detection system, a Discord study bot, and an anonymous file-sharing app, showcasing his expertise in Python, machine learning, and web development. It also mentions his completion of online courses in programming and data structures, along with his technical skills in programming languages, databases, web development, data analysis, and version control. Additionally, it highlights his soft skills, including adaptability, problem-solving, teamwork, time management, and communication."
+        },
+        {
+          "title": "ClipShare \u2013 Anonymous File & Text Sharing App |Python, Flask, HTML, CSS, JavaScript",
+          "start_index": 1,
+          "end_index": 1,
+          "node_id": "0008",
+          "summary": "The partial document is a resume of Darshan Purohit, highlighting his career objective, education, projects, co-curricular activities, technical skills, and soft skills. It outlines his academic background, including a B.Tech in Information Technology with a strong CGPA, and notable projects such as a Multimodal Deepfake Detection System, a Discord Study Bot, and an Anonymous File & Text Sharing App. The document also mentions his completion of online courses in programming, problem-solving practice, and proficiency in various technical skills like programming languages (Java, Python, C/C++), databases, web development, data analysis, and version control tools. Additionally, it emphasizes his soft skills, including adaptability, problem-solving, teamwork, time management, and communication."
+        }
+      ],
+      "node_id": "0005",
+      "summary": "The partial document is a professional resume of Darshan Purohit, highlighting his career objective, education, projects, co-curricular activities, technical skills, and soft skills. It outlines his academic background, including a B.Tech in Information Technology with a strong CGPA, and notable projects such as a Multimodal Deepfake Detection System, a Discord Study Bot, and an Anonymous File & Text Sharing App. The document also emphasizes his technical expertise in programming languages, databases, web development, and data analysis, along with his problem-solving and collaboration skills. Additionally, it mentions his completion of online courses and coding challenges to enhance his programming and analytical abilities."
+    },
+    {
+      "title": "Co-Curricular Activities",
+      "start_index": 1,
+      "end_index": 1,
+      "node_id": "0009",
+      "summary": "The partial document is a professional resume of Darshan Purohit, highlighting his career objective, education, projects, co-curricular activities, technical skills, and soft skills. It outlines his academic background, including a B.Tech in Information Technology with a strong CGPA, and details his projects such as a Multimodal Deepfake Detection System, a Discord Study Bot, and an Anonymous File & Text Sharing App, showcasing his expertise in Python, machine learning, and web development. The document also mentions his completion of online courses in programming, problem-solving skills through DSA practice, and proficiency in various technical tools and programming languages. Additionally, it emphasizes his soft skills like adaptability, problem-solving, teamwork, and communication."
+    },
+    {
+      "title": "Technical Skills",
+      "start_index": 1,
+      "end_index": 1,
+      "node_id": "0010",
+      "summary": "The partial document is a resume of Darshan Purohit, highlighting his career objective, education, projects, co-curricular activities, technical skills, and soft skills. It outlines his academic background, including a B.Tech in Information Technology with a strong CGPA, and notable projects such as a Multimodal Deepfake Detection System, a Discord Study Bot, and an Anonymous File & Text Sharing App. The document also mentions his completion of online courses in programming, problem-solving practice, and proficiency in various technical skills like programming languages, databases, web development, data analysis, and version control. Additionally, it emphasizes his soft skills, including adaptability, problem-solving, teamwork, time management, and communication."
+    },
+    {
+      "title": "Soft Skills",
+      "start_index": 1,
+      "end_index": 1,
+      "node_id": "0011",
+      "summary": "The partial document is a resume of Darshan Purohit, highlighting his career objective, education, projects, co-curricular activities, technical skills, and soft skills. It outlines his academic background, including a B.Tech in Information Technology with a strong CGPA, and notable projects such as a Multimodal Deepfake Detection System, a Discord Study Bot, and an Anonymous File & Text Sharing App. The document also mentions his completion of online courses in programming, problem-solving practice, and proficiency in various technical skills like programming languages (Java, Python, C/C++), databases, web development, data analysis, and version control tools. Additionally, it emphasizes his soft skills, including adaptability, problem-solving, teamwork, time management, and communication."
+    }
+  ]
+}
