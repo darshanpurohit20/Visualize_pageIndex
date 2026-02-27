@@ -20,7 +20,7 @@ import '../styles/visualizer.css';
 // Register custom node types
 const nodeTypes = { customNode: CustomNode };
 
-const DocumentVisualizer = ({ jsonData }) => {
+const DocumentVisualizer = ({ jsonData, jsonFiles, selectedIndex, onSelectFile }) => {
   const [collapsedNodes, setCollapsedNodes] = useState(new Set());
   const [searchQuery, setSearchQuery] = useState('');
 
@@ -126,7 +126,27 @@ const DocumentVisualizer = ({ jsonData }) => {
             {jsonData.doc_name} &bull; {allNodes.length} nodes
           </span>
         </div>
-        <SearchBar onSearch={handleSearch} />
+
+        <div className="header-right">
+          {/* File selector */}
+          {jsonFiles && jsonFiles.length > 1 && (
+            <div className="file-selector">
+              <label className="file-selector-label">📂</label>
+              <select
+                className="file-selector-dropdown"
+                value={selectedIndex}
+                onChange={(e) => onSelectFile(Number(e.target.value))}
+              >
+                {jsonFiles.map((file, idx) => (
+                  <option key={idx} value={idx}>
+                    {file.label}
+                  </option>
+                ))}
+              </select>
+            </div>
+          )}
+          <SearchBar onSearch={handleSearch} />
+        </div>
       </div>
 
       {/* Search results count */}
